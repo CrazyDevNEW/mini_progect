@@ -1,2 +1,2 @@
-# nam_tocho_pizda
-moget nahui?
+# nam_tocho_
+moget ?
