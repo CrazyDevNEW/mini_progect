@@ -1,7 +1,6 @@
 class FindData():
     def find_date(self):
         string_date = self.calendarWidget.selectedDate().getDate()
-        # добавляем ноль, елси месяц <= 9
         if int(string_date[1]) <= 9:
             string_date = (string_date[0], '0' + str(string_date[1]), string_date[-1])
         # добавляем ноль, елси день <= 9
