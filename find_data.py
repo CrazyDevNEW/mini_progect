@@ -3,7 +3,6 @@ class FindData():
         string_date = self.calendarWidget.selectedDate().getDate()
         if int(string_date[1]) <= 9:
             string_date = (string_date[0], '0' + str(string_date[1]), string_date[-1])
-        # добавляем ноль, елси день <= 9
         if int(string_date[2]) <= 9:
             string_date = (string_date[0], str(string_date[1]), '0' + str(string_date[-1]))
         # берем текст из line edit
