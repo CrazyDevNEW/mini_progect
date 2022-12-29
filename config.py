@@ -1,0 +1,6 @@
+dbHost = "127.0.0.1"
+dbPort = "3306"
+dbUser = "USERNAME"
+dbPassword = "PASSWORD"
+dbConnector = "mariadb+mariadbconnector"
+dbBaseUrl = f"{dbConnector}://{dbUser}:{dbPassword}@{dbHost}:{dbPort}/"
